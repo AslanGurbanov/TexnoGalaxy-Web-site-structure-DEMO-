@@ -1,0 +1,268 @@
+body {
+  background: rgb(97, 22, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(97, 22, 22, 1) 0%,
+    rgba(0, 0, 0, 1) 38%,
+    rgba(29, 24, 92, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+}
+
+.main-div {
+  color: white;
+}
+
+.header-div {
+  display: flex;
+
+  align-items: center;
+  gap: 50px;
+
+  color: white;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu-ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu-ul li {
+  font-size: 20px;
+  transition: font-size 0.5s;
+}
+.menu-ul li:hover {
+  font-size: 22px;
+}
+.menu-ul li a:visited {
+  color: inherit;
+}
+
+.menu-ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-ul li a:hover {
+  color: #1d9f0c;
+}
+
+.menu-ul li a:focus {
+  color: #66d9ff;
+}
+
+.logo-img {
+  width: 75px;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+
+  transition: color 0.2s;
+}
+.texnogalaxy {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.logo-div:hover {
+  color: rgb(164, 172, 178);
+}
+.footer-div {
+  color: white;
+  background-color: #1f1e1e;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  height: 180px;
+  margin-top: 800px;
+}
+
+.texnogalaxy {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 12px;
+  margin: 0;
+}
+.producer {
+  margin-bottom: 0;
+  line-height: 0;
+  font-size: 12px;
+}
+.instagram-image {
+  fill: white;
+  width: 35px;
+}
+.facebook-image {
+  fill: white;
+  width: 35px;
+}
+.whatsapp-image {
+  fill: white;
+  width: 35px;
+}
+.x-image {
+  fill: white;
+  width: 35px;
+}
+.icons-div-part {
+  display: flex;
+
+  width: 20%;
+  justify-content: space-between;
+}
+.account-body {
+  border-bottom: 1px dashed white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  padding: 20px;
+}
+.account-content {
+  color: white;
+
+  width: 85%;
+}
+.user-functions-div {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+
+  height: 160px;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid white;
+  flex-direction: column;
+  display: none;
+}
+
+.wish-list-svg {
+  fill: white;
+  transition: width 0.2s, fill 0.3s;
+}
+.wish-list:hover .wish-list-svg {
+  fill: red;
+}
+.wish-list:hover .wish-list-p {
+  color: #939793;
+}
+.wish-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+
+  cursor: pointer;
+}
+.wish-list-p {
+  color: white;
+  transition: color 0.2s;
+}
+.list-part-div {
+  display: flex;
+  align-items: center;
+}
+.js-add-div {
+  color: white;
+  border: 1px solid white;
+}
+.products-div-account {
+  color: white;
+}
+.userName-header {
+  font-size: 30px;
+}
+.user-info-p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.set-number-button {
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: #1d9f0c;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.2s, color 0.2s;
+}
+.set-number-button:hover {
+  background-color: #15590c;
+  color: rgb(255, 255, 255);
+}
+
+.user-email {
+  font-size: 25px;
+}
+.contact-number {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header-div {
+    padding: 0;
+  }
+  .menu-ul {
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .texnogalaxy {
+    font-size: 20px;
+  }
+  .footer-div {
+    padding: 0;
+  }
+  .icons-div-part {
+    min-width: 200px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-div {
+    flex-direction: column;
+    padding: 0;
+  }
+  .menu-ul {
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .location-part {
+    width: 100%;
+  }
+  .footer-div {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .user-email {
+    font-size: 18px;
+  }
+  .contact-number {
+    font-size: 18px;
+  }
+}

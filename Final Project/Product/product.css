@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(22, 92, 45, 1) 81%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.main-div {
+  color: white;
+}
+
+.header-div {
+  display: flex;
+
+  align-items: center;
+  gap: 50px;
+  color: white;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu-ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu-ul li {
+  font-size: 20px;
+  transition: font-size 0.5s;
+}
+.menu-ul li:hover {
+  font-size: 22px;
+}
+.menu-ul li a:visited {
+  color: inherit;
+}
+
+.menu-ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-ul li a:hover {
+  color: #1d9f0c;
+}
+
+.menu-ul li a:focus {
+  color: #66d9ff;
+}
+
+.logo-img {
+  width: 75px;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+
+  transition: color 0.2s;
+}
+.texnogalaxy {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.logo-div:hover {
+  color: rgb(164, 172, 178);
+}
+.footer-div {
+  color: white;
+  background-color: #1f1e1e;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  height: 180px;
+  margin-top: 600px;
+}
+
+.texnogalaxy {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 12px;
+  margin: 0;
+}
+.producer {
+  margin-bottom: 0;
+  line-height: 0;
+  font-size: 12px;
+}
+.instagram-image {
+  fill: white;
+  width: 35px;
+}
+.facebook-image {
+  fill: white;
+  width: 35px;
+}
+.whatsapp-image {
+  fill: white;
+  width: 35px;
+}
+.x-image {
+  fill: white;
+  width: 35px;
+}
+.icons-div-part {
+  display: flex;
+
+  width: 20%;
+  justify-content: space-between;
+}
+.info {
+  color: white;
+}
+.product-card {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.info {
+  width: 80%;
+  padding: 10px;
+}
+.pictures {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px dashed white;
+  min-width: 180px;
+}
+.wishlist-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: #a9daaf;
+  transition: background-color 0.2s, color 0.2s;
+}
+.wishlist-btn:hover {
+  background-color: #891d0f;
+  color: white;
+}
+.rating {
+  padding-top: 20px;
+  font-size: 23px;
+}
+.stock {
+  font-size: 20px;
+}
+.brand {
+  font-size: 19px;
+  padding: 15px 0;
+}
+.price {
+  font-size: 25px;
+}
+.price-div {
+  display: flex;
+  width: 450px;
+  align-items: center;
+  justify-content: space-between;
+}
+.exchange-button {
+  background-color: #914f4f;
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.exchange-button:hover {
+  background-color: #4f604d;
+  color: #f2b6af;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header-div {
+    width: 80%;
+    display: flex;
+    padding: 0;
+  }
+  .menu-ul li {
+    font-size: 15px;
+  }
+  .menu-ul {
+    max-width: 500px;
+    padding-left: 0;
+
+    align-items: start;
+  }
+  .menu-div {
+    padding-right: 160px;
+  }
+  .menu-ul li {
+    font-size: 22px;
+  }
+  .menu-ul li:hover {
+    font-size: 22.5px;
+  }
+  .account-p {
+    display: none;
+  }
+  .menu-div {
+    width: 40%;
+  }
+  .logo-img {
+    width: 70px;
+  }
+  .texnogalaxy {
+    font-size: 20px;
+  }
+
+  .logo-div {
+    margin-left: 0;
+  }
+  .login-div {
+    width: 50px;
+  }
+  .price-div {
+    display: block;
+  }
+  .description {
+    width: 80%;
+  }
+  .info {
+    width: 100%;
+    min-width: 20px;
+  }
+  #productName {
+    width: 95%;
+  }
+  .brand {
+    width: 80%;
+  }
+  .rating {
+    width: 80%;
+  }
+  .stock {
+    width: 80%;
+  }
+  #productPrice.price {
+    font-size: 20px;
+    width: 80%;
+  }
+  .price-div {
+    width: 82%;
+  }
+
+  .icons-div-part {
+    padding-right: 30px;
+    min-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-div {
+    width: 100%;
+  }
+  .menu-div {
+    width: 200px;
+  }
+  .menu-ul li {
+    font-size: 20px;
+  }
+  .menu-ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+/* Phone part  */
+
+@media only screen and (max-width: 600px) {
+  .header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+  }
+  .menu-ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    min-width: 40%;
+    max-width: none;
+  }
+  .menu-div {
+    margin-top: 10px;
+    max-width: none;
+    width: 500px;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+  .menu-ul li {
+    font-size: 20px;
+  }
+  .logo-img {
+    width: 70px;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .product-card {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* phone for 470 px */
+
+@media only screen and (max-width: 470px) {
+  .menu-ul {
+    width: 50%;
+  }
+  .menu-ul li {
+    font-size: 24px;
+  }
+  .menu-div {
+    width: 400px;
+  }
+  .product-card {
+    display: block;
+    padding-top: 40px;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 1px dashed white;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .brand {
+    font-size: 20px;
+  }
+  #productPrice.price {
+    font-size: 25px;
+  }
+  .stock {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 20px;
+  }
+  .footer-div {
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+  }
+  .instagram-image {
+    width: 25px;
+  }
+  .facebook-image {
+    width: 25px;
+  }
+  .whatsapp-image {
+    width: 25px;
+  }
+  .x-image {
+    width: 25px;
+  }
+}

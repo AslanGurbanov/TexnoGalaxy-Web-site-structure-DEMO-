@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(44, 74, 30, 1) 46%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.main-div {
+  color: white;
+}
+
+.header-div {
+  display: flex;
+
+  align-items: center;
+  gap: 50px;
+
+  color: white;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu-ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu-ul li {
+  font-size: 20px;
+  transition: font-size 0.5s;
+}
+.menu-ul li:hover {
+  font-size: 22px;
+}
+.menu-ul li a:visited {
+  color: inherit;
+}
+
+.menu-ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-ul li a:hover {
+  color: #1d9f0c;
+}
+
+.menu-ul li a:focus {
+  color: #66d9ff;
+}
+
+.logo-img {
+  width: 75px;
+}
+.logo-div {
+  display: flex;
+  align-items: center;
+
+  transition: color 0.2s;
+}
+.texnogalaxy {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.logo-div:hover {
+  color: rgb(164, 172, 178);
+}
+.main {
+  width: 75%;
+  height: 800px;
+  margin: 40px auto;
+}
+.about-loc {
+  width: 60%;
+}
+.lower-part {
+  display: flex;
+  justify-content: space-around;
+}
+.location-part {
+  width: 35%;
+  height: 200px;
+}
+.map {
+  width: 100%;
+  height: 180px;
+}
+.buttons-part {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.buttons-part button {
+  color: white;
+  width: 100%;
+  background-color: rgb(111, 111, 111);
+  transition: background-color 0.3s, color 0.3s;
+}
+.may:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.yasamal:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.genclik:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.may:active {
+  background-color: red;
+}
+.yasamal:active {
+  background-color: red;
+}
+.genclik:active {
+  background-color: red;
+}
+#map {
+  height: 280px;
+}
+.header-3 {
+  font-size: 45px;
+}
+.about-p {
+  font-size: 20px;
+}
+.store-ul {
+  font-size: 25px;
+}
+.when {
+  font-style: italic;
+}
+.terms-p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(210, 114, 79);
+}
+.location-p {
+  font-size: 25px;
+  margin: 5px 2px;
+  font-weight: bold;
+}
+.footer-div {
+  color: white;
+  background-color: #1f1e1e;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  height: 180px;
+  margin-top: 200px;
+}
+
+.texnogalaxy {
+  margin-top: 0;
+  line-height: 1;
+  font-size: 12px;
+  margin: 0;
+}
+.producer {
+  margin-bottom: 0;
+  line-height: 0;
+  font-size: 12px;
+}
+.instagram-image {
+  fill: white;
+  width: 35px;
+}
+.facebook-image {
+  fill: white;
+  width: 35px;
+}
+.whatsapp-image {
+  fill: white;
+  width: 35px;
+}
+.x-image {
+  fill: white;
+  width: 35px;
+}
+.icons-div-part {
+  display: flex;
+
+  width: 20%;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 991px) {
+  .lower-part {
+    flex-direction: column;
+    border: none;
+  }
+
+  .about-loc {
+    width: 100%;
+  }
+  .main {
+    width: 90%;
+  }
+  .footer-div {
+    margin-top: 500px;
+  }
+  .map {
+    min-width: 250px;
+  }
+
+  .header-div {
+    width: 100%;
+    padding: 0;
+  }
+  .menu-ul {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .logo-img {
+    width: 100px;
+  }
+  .texnogalaxy {
+    font-size: 20px;
+  }
+  .texnogalaxy-copy {
+    font-size: 12px;
+  }
+  .buttons-part {
+    width: 250px;
+  }
+  .add-info {
+    width: 250px;
+  }
+  .header-3 {
+    font-size: 30px;
+  }
+  .footer-div {
+    width: 100%;
+    padding: 0;
+  }
+  .icons-div-part {
+    min-width: 200px;
+  }
+}
+/* Phone part */
+
+@media only screen and (max-width: 600px) {
+  .header-div {
+    flex-direction: column;
+    padding: 0;
+  }
+  .menu-ul {
+    width: 100%;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .location-part {
+    width: 100%;
+  }
+  .footer-div {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding: 0;
+  }
+}

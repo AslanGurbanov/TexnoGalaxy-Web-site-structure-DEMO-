@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>Texno Galaxy</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="header-div">
+        <div class="Name-div">Login to TexnoGalaxy</div>
+      </div>
+
+      <div class="form-side">
+        <form class="login-form">
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="password">Password:</label><br />
+          <input type="password" id="password" name="password" required /><br />
+          <div class="password-container">
+            <input type="checkbox" id="showPassword" />
+            <label for="showPassword">Show Password</label>
+          </div>
+          <div class="agreement-container">
+            <input type="checkbox" id="agreement" required />
+            <label for="agreement"
+              ><a href="./Agreement/agreement.html"
+                >I agree to the terms and conditions</a
+              ></label
+            >
+          </div>
+          <br />
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+
+    <script src="./login.js"></script>
+  </body>
+</html>
