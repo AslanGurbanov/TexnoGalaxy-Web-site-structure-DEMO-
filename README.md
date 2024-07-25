@@ -1,0 +1,1 @@
+This is a demo version of the TexnoGlaxy website, built with HTML, CSS, and JavaScript. The site will display products fetched from a Fake Product API. While it was initially a multipage site, some design issues have been encountered. In the full version, features like a wishlist and an account update page will be added.
